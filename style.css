@@ -60,6 +60,35 @@ body {
     display: block;
 }
 
+.ativo{
+    background-color: #6FFF57;
+    border-bottom:4px sold var(--verde);
+}
+
+.abas-textos{
+    background-color: var(--cor-de-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+
+.aba-conteudo.ativo{
+    display: block;
+}
+
+.aba-conteudo{
+    display: none;
+} 
+
+.aba-conteudo-titulo-principal{
+    text-align: center;
+}
+
+.aba-conteudo-tirulo-secundario{
+    text-align: center;
+    color:var(--branco);
+    text-transform: uppercase;
+}
+
 @media screen and (min-width: 768px){
     .botoes{
         display:flex
